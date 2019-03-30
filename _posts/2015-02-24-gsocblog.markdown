@@ -1,0 +1,237 @@
+---
+title: "Google Summer of Code(GSoC)"
+layout: post
+date: 2017-10-30 22:00
+image: https://www.blendernation.com/wp-content/uploads/2016/02/summer-of-code.jpg
+headerImage: true
+category: blog
+author: mostafa
+description: "My experience at GSoC2017"
+---
+
+
+
+Welcome, My name Mostafa Saleh, I was a participant at Google Summer of Code(GSoC) 2017 with [lowRISC](http://www.lowrisc.org/) organization, I will sum up in this post the steps I took to be accepted at GSoC and my experience through the program!.
+
+
+#### What is Open source? 
+
+First, I will talk about the term [open source](https://en.wikipedia.org/wiki/Open-source_software). Open source refers to a software with a source code open to the public to explore and edit it.
+
+A famous example in the Operating Systems field is GNU Linux Vs Windows.
+
+GNU Linux is an open source OS founded by Linus Torvalds in 1991, and have evolved since then and became very powerful nowadays with many different flavors and distributions and Ports to many Processors and SoCs.It has a wide support in developers and makers community.
+
+On the other hand, there is Windows which is closed source(can't see its source code), Which is the most used OS for desktop users with its user-friendly interface and simplicity and a huge set of tools and customer support from Microsoft.
+
+Open Source software let you get the code, so you can explore it and build yourself if you want. The benefits of using open source code are that you can explore and check that it doesn't contain malware or any malicious activities. Also, it can be customized to fit your needs.
+
+Generally speaking, there is no bad or good approach, the choice of using open source or proprietary software depends on the situation( application, experience, support….).
+
+
+
+#### What is Google Summer of Code?
+Now I will talk about what is Google Summer of Code or GSoC as I will refer to it till the end of the post.
+
+GSoC is a 3-month summer program sponsored by Google which aims to introduce the students from different places around the world to the open source community.
+
+
+You must note that GSoC is not considered as any form of employment at Google itself as they clearly indicated in their [FAQ](https://developers.google.com/open-source/gsoc/faq).
+
+
+
+#### How GSoC works?
+To demonstrate how GSoC works, I will go through its timeline briefly, then in the next point I will explain each step more clear and will talk about my experience and what I did in each of these steps.
+
+This table is the timeline of GSoC 2017. Generally, you can check the timeline [here](https://summerofcode.withgoogle.com/how-it-works/).
+
+
+| Activity        |  Date|
+| ------------- |: -------------:| 
+| Organizations Apply | January 19, 2017 |
+|  Organization Application Deadline  | February 9, 2017|
+|  Organizations Announced | February 27, 2017 |
+| Student Application Period  |March 20, 2017 - April 3, 2017 |
+| Application Review Period|April 3, 2017 - May 4, 2017  | 
+|  Student Projects Announced | May 4, 2017| 
+| Community Bonding  | May 4 - 30, 2017| 
+|  Coding  |May 30, 2017 - June 30, 2017|
+| First Evaluations| June 26 - 30, 2017|
+|  Coding  |  June 30, 2017 - July 24, 2017|
+|  Second  Evaluations| July 24 - 28, 2017|
+|  Coding |July 28, 2017 - August 21, 2017|
+|  Students Submit Code and Final Evaluations |August 21 - 29, 2017|
+|  Mentors Submit Final Evaluations  |August 29, 2017 - September 5, 2017|
+|  Results Announced |September 6, 2017|
+
+The period from **Organizations Apply** and **Organizations Announced** is for open source organizations, where they apply to participate as a mentoring organization then google reviews and publish the final list of organizations. There are many organizations with wide range of fields in programming which will fit different interest, in 2017 there were 201 organizations, an example for these organizations: Apache, BeagleBoard, Boost, Django, FFmpeg, FreeBSD, git, GNU Octave, lowRISCV, OpenCV, Python, QEMU, Eclipse, GNU, The Linux Foundation, Tor.
+
+Then **Student Application Period** is announced where students write proposals for their organization to apply with a certain project, this project can be initially proposed by the organization on their page or by a new idea by the student.
+
+Then during **Student Application Period** the proposal will be reviewed, and the results will be announced at **Student Application Period** and students will know that if they were accepted or not.
+
+**Community Bonding** is a period without coding, where the students whose applications have passed shall start to talk with each other and with their mentor, and also set up the required tools for their projects.
+
+The **Coding** is split into three phases, each one is followed by an 
+**Evaluation** where students and mentors both evaluate each other.
+
+After **Students Submit Code and Final Evaluations** the mentors will also submit their evaluations during Mentors Submit Final Evaluations. And finally, Results Announced to say whether the student passed the program or not.
+
+
+
+
+
+#### What are the rules to apply?
+The rules to apply may change from year to another so check them before you apply, you can find the rules [here](https://summerofcode.withgoogle.com/rules/).
+
+The most important rules:
+1. Must be above 18 years old.
+2. Must be a student (Bachelor, Masters or Ph.D.).
+3. The Student is Ineligible if he/she participated two or more times before (this rule has changed before).
+
+
+
+#### Great, but what are the benefits?
+
+There are many benefits from participating in GSoC financial and non-financial wise.
+
+1. First and most important is the experience itself, on the technical and nontechnical level. you will get it from dealing with mentors from the top university and institutions.
+
+2. Money(Stipend), Its amount differ from country to another and also may differ from year to another, in 2017 stipends were calculated using PPP. In my case, I was from Egypt so I got 2400 dollars(which is the minimum :D), you can read more about the stipends [here](https://developers.google.com/open-source/gsoc/help/student-stipends).
+
+3. Swag, after passing the program, you will get a T-shirt, notebook, sticker, and pen.
+
+4. Community, you will get to know many students around the world with similar interests in programming and technology.
+
+
+#### Some Statistics
+
+In 2017 there were 1318 students from 72 countries, 10 of them were from Egypt, India was the country with the highest number of students with 569 students.
+
+You can find more statistics [here](https://opensource.googleblog.com/search/label/statistics+gsoc).
+
+
+#### Application Tips
+
+Now we will talk about the application which the starting point for the program.
+
+Each Organization publishes an Idealist, which is a group of suggestions for the proposal. these ideas can be a new feature in the organization software, fixing bugs, porting code or even new software from scratch.
+
+Students can apply to any of these Ideas in the Ideas list or even can submit his own idea, however, if you have your own idea it's better to discuss it with the organization first to study its applicability before starting the proposal.
+
+Each student can submit up to 5 proposals, so choose carefully! In my case, I started by filtering organizations based on my interests(Embedded Systems and Computer vision) and programming languages (C, C++, and Python). First I got about 9 organization then I started to filter them more until I reached 4. Then I focused on these organization, I started to build and install their software required for the projects to be familiar with them, also I started to participate in the mailing lists for these organization and contact them to get more information. Finally, I reached 2 projects that I started to write the proposal for them.
+
+Now I will speak the proposal itself and I will give examples of the proposal from the project that I got accepted into.
+
+When it comes to what should you write in the proposal, there are two possibilities, the first is that the organization itself provides a template to follow, the second is that there is no certain template provided and this was my case. Luckily GSoC provides a general template which contains the points to include in the proposal, you can find it [here](http://write.flossmanuals.net/gsocstudentguide/writing-a-proposal/). Also, you can write your own template. You can also find some students proposals from 2017 [here](https://github.com/saurabhshri/GSoC-2017-Accepted-Proposals/).
+
+
+Before going to the details of the proposal take a look at my [project](https://github.com/misaleh/CMSIS-DSP-PULPino) as I will use it as an example.
+
+
+In my case, I followed the template from GSoC, the template contains:
+
+**Name and Contact Information**:
+Your Name and Contact Information, Including your mail, Skype, Linkedin, phone...
+
+**Title**:
+The Title of the project.
+
+**Synopsis**:
+A short brief about the project.
+
+**Deliverables**:
+That is the most important section of the proposal. You should describe what is the final delivery for your project, in my cases It was the library, test suite, benchmarks. Then you should describe the flow that you will follow, you can do it with a table, flowchart or one was you find suitable. You should also include a preparation phase if you will deal with new topics and time for documentation if it is required. There is now certain flow to follow in the proposal as it heavily depends on the context of the project, but you should make it somehow detailed to show the organization that you are aware by all the project aspects.
+
+Here are the steps I wrote in my proposal
+
+Steps:
+1. Preparation:  installing required tools, testing the RTL of Pulpino and toolchain, be familiar with CMSIS DSP library and instruction set of PULPino and the DSP core. 
+2. For each module from the priority list mentioned above
+* Implement it on PULPino (using c programming)
+* Testing   (using a simulator or RTL)
+* Port to DSP core (using c programming or assembly
+* Testing (using RTL)
+* Comparing and benchmarking 
+3.  Documentation: could be done using word, LaTeX or markdown for GitHub.
+
+
+
+
+
+**Related Work**:
+
+This section will show how much are you familiar with this field, and other projects similar to yours. So you have to do a good research before writing this section.
+
+**Biographical Information**:
+This is the second most important section of the proposal, as you will show the organization your skills and convince them that you are capable of finishing the project with high quality.
+
+In my case I had to break the project into skills first, then I will talk about my experience at each point.
+
+1. My project contained C programming and it will interface with some hardware which sometimes is referred to as "Embedded C".
+2. Interfacing with ARM processors.
+3. Knowledge of DSP and signal processing.
+4. And being familiar with processors and how they work and the idea of Instruction set-extension(ISE).
+
+
+And these points were the core of this section, which contained :
+
+* General information about me, my studies and my previous experience
+
+* My experience with processors and ISE, I was undergrad RA in the university and worked on this topic and have two publications in it, 
+so I described my work and added links to these papers
+
+* My Experience with C Programming
+
+* My Experience with ARM processors, I have made some projects using ARM m4 so I added GitHub links of the projects and a brief explanation.
+
+* My experience with DSP, I wrote about the courses I studied in the university and my graduation project also is related to the DSP.
+
+* I talked my experience with open source projects and my contributions
+
+* Added link to my resume
+
+
+
+ 
+Try to make this section organized and to the point without fillers, also try to include some references for your skills as GitHub links.
+
+
+
+#### Now I got ACCEPTED!, What's next?
+Congratulations, let the journey begin!
+
+And if you didn't get accepted that doesn't mean that you are bad or you lack experience, some projects you will apply in, there will be another Ph.D. or Master students also applying who may be more favorable for the organization. And sometimes some projects are not even selected. Try to seek feedback and improve yourself!
+
+
+
+#### Community Bonding
+
+The community bonding you should:
+1. Contact your mentor and make sure you are aligned with the same point of view on the plan and the timeline.
+2. Get involved in the community, there is an official mailing list and then the students create other groups in Facebook, Whatsapp, Telegram.
+3. Install the required tools, this will depend on your project, I have to install some compilers and make sure the source code of the organization is compiled successfully so I can start the coding phase without wasting time trying to solve problems related to the tools or the development environment.
+
+
+#### Coding Phases
+In the coding phase, you should follow the plan that you added in the proposal and may have been tuned after meeting with your mentor. you should also agree with your mentor how would you report your progress, this can be done through emails, video calls, blogs…
+
+
+#### Evaluations 
+After each coding phase, there is an Evaluation, you and your mentor will evaluate each other. the evaluation is to answer questions, it will take a few minutes, after a few days the results will be announced, you can open the website and check whether you pass or not.
+
+**can I fail Evaluations?**
+
+Yes, in 2017 the success rate was 86.2%.
+There are some reasons that might lead to this: 
+1. Not filling the mentor evaluation.
+2. Low-quality code.
+3. Being much late than the plan.
+
+But actually it depends on the mentor itself and his rating to you, and if you were with a regular meeting with him, you should estimate your state, so make sure to be in a regular contact with him and always consider his feedback.
+
+
+
+
+#### Final Evaluation
+After last coding phase there will be a final evaluation, this team you will be evaluated by both your mentor and Google, Google will evaluate your work based on whether code took the 3 months of work or not, there are also guidelines for code submission you can find it [here](https://developers.google.com/open-source/gsoc/help/work-product).

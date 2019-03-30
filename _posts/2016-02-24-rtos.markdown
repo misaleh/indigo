@@ -1,0 +1,58 @@
+---
+title: "Real-Time Operating System(RTOS) Course"
+layout: post
+date: 2017-10-30 21:05
+image: 
+headerImage: false
+category: blog
+author: mostafa
+description: RTOS course
+---
+
+I have made a free online RTOS course in Arabic,  Check it on [VLSI academy](http://www.vlsiacademy.org/rtos1.html) and also on [Youtube](https://www.youtube.com/playlist?list=PLVxBVAdu4pn7UTHjmslHicZiYtyRbxs6z)
+
+## Course Info.
+
+    This is a Real time operating system (RTOS) course, the course focuses on RTOS concepts, features, and APIs.
+    It does not focus much on real time systems design.
+    The first part of the course focuses on RTOS generally, and explains its basic concepts, it consists of 10 sessions.
+    The second part focuses on a certain RTOS which is FreeRTOS, it consists of 12 sessions and 9 labs using TIVA C within them.
+
+## Course prerequisites
+
+    * C programming 
+    * Microcontroller interfacing
+    * OS is a plus
+
+## Course Topics
+
+
+    * Introduction
+    * Survey on Software Architectures
+    * Real time Concepts
+    * Race Conditions
+    * Synchronization and Mutual Exclusion
+    * RMS
+    * Inter-task Communication
+    * Timers and Memory Management
+    * ISR and Events 
+    * Note about design
+    * FreeRTOS: Intro
+    * FreeRTOS: Files and Configuration
+    * FreeRTOS: Tasks (Lab0)
+    * FreeRTOS: Task Control (Lab1)
+    * FreeRTOS: Task utilities (Lab2)
+    * FreeRTOS: Kernel Control (Lab3)
+    * FreeRTOS: Queues (Lab4)
+    * FreeRTOS: Semaphores (Lab5)
+    * FreeRTOS: Mutexes (Lab6)
+    * FreeRTOS: S/W timers (Lab 7)
+    * FreeRTOS: Events (Lab 8)
+    * FreeRTOS: Arduino (LAB9)*
+
+## Course Textbook
+
+    * An embedded software primer  - David E. Simon (main)
+    * MicroC/OS II the real time kernel  - Jean J. Labrosse
+    * Embedded Microcomputer Systems Real Time Interfacing - Jonathan W. Valvano
+    * Embedded Systems: Architecture, Programming and Design - Raj Kamal
