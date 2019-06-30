@@ -9,4 +9,4 @@ layout: page
 
 <p>This is a personal website, I will post stuff about tech and my own interests.</p>
  
-<p>Please feel to contact me for any reason, you can find my mail on the ![home page](https://mostafasaleh.com).</p>
+<p>Please feel to contact me for any reason, you can find my mail on the [Home Page](https://mostafasaleh.com) </p>
