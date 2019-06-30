@@ -12,4 +12,4 @@ Hello and welcome to my humble website. My name is Mostafa Saleh, I am a Softwar
 This is a personal website, I will post stuff about tech and my own interests.
 
  
-Please feel to contact me for any reason, you can find my mail on the [Home Page](https://mostafasaleh.com)
+Please feel free to contact me for any reason, you can find my mail on the [Home Page](https://mostafasaleh.com)
